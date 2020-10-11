@@ -1,0 +1,68 @@
+\documentclass[12pt, a4paper, brazil, memoir]{classExtensions/abntex2}
+
+\let\printglossary\relax
+\let\theglossary\relax
+\let\endtheglossary\relax
+
+\usepackage[acronym, toc, acronym, toc, shortcuts]{glossaries}
+\input{glossary}
+% \makenoidxglossaries
+
+\usepackage{times}
+
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[alf,abnt-etal-list=5]{abntex2cite}
+\usepackage{lipsum}
+
+% \usepackage[left=2.0cm,top=3.0cm,right=3.0cm,bottom=2.0cm]{geometry}
+
+\graphicspath{ {./imagens/} }
+
+\titulo{\uppercase {
+    TÍTULO DO TRABALHO: Subtítulo (se houver)
+}}
+\data{2020}
+\autor{ \uppercase {Alguek} }
+\local{ \uppercase {NomeFaculdade} }
+\orientador{Prof. }
+% \instituicao{
+%   Universidade Vila Velha -- UVV
+%   \par
+%   Centro Tecnológico
+%   \par
+%   Curso de Ciência da Computação}
+\preambulo{Projeto integrado multidisciplinar apresentado à Universidade Paulista 
+            como requisito para a conclusão do 3º semestre do curso de 
+            Análise e Desenvolvimento de Sistemas.}
+\tipotrabalho{Trabalho de Conclusão de Curso}
+
+\makeindex
+
+\begin{document}
+
+\newenvironment{changemargin}[2]{%
+    \begin{list}{}{%
+        \setlength{\topsep}{0pt}%
+        \setlength{\leftmargin}{#1}%
+        \setlength{\rightmargin}{#2}%
+        \setlength{\listparindent}{\parindent}%
+        \setlength{\itemindent}{\parindent}%
+              \setlength{\parsep}{\parskip}%
+              }%
+        \item[]}{\end{list}}
+
+\imprimircapa
+\imprimirfolhaderosto
+
+\include{01resumo.tex}
+
+\include{02abstract.tex}
+
+\include{03sumario.tex}
+
+\include{04introducao.tex}
+
+\end{document}

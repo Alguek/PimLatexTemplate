@@ -1,0 +1,90 @@
+\ifglsentryexists{forrageamento}{}%
+{%
+\gls@defglossaryentry{forrageamento}%
+{%
+name={forrageamento},%
+sort={forrageamento},%
+type={main},%
+first={forrageamento},%
+firstplural={forrageamentos},%
+text={forrageamento},%
+plural={forrageamentos},%
+description={busca e a exploração de recursos alimentares},%
+descriptionplural={busca e a exploração de recursos alimentares},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gcd}{}%
+{%
+\gls@defglossaryentry{gcd}%
+{%
+name={GCD},%
+sort={GCD},%
+type={acronym},%
+first={Greatest Common Divisor\glsspace (GCD)},%
+firstplural={Greatest Common Divisors\glsspace (GCDs)},%
+text={GCD},%
+plural={GCDs},%
+description={Greatest Common Divisor},%
+descriptionplural={Greatest Common Divisor\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Greatest Common Divisor},%
+longplural={Greatest Common Divisors},%
+short={GCD},%
+shortplural={GCDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ag}{}%
+{%
+\gls@defglossaryentry{ag}%
+{%
+name={AG},%
+sort={AG},%
+type={acronym},%
+first={Algoritmo Genético\glsspace (AG)},%
+firstplural={Algoritmo Genéticos\glsspace (AGs)},%
+text={AG},%
+plural={AGs},%
+description={Algoritmo Genético},%
+descriptionplural={Algoritmo Genético\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Algoritmo Genético},%
+longplural={Algoritmo Genéticos},%
+short={AG},%
+shortplural={AGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
